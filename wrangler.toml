@@ -1,0 +1,11 @@
+name = "fass-atlas"
+main = "src/index.js"
+compatibility_date = "2026-02-11"
+
+workers_dev = false
+
+routes = [
+  { pattern = "fass.systems/*", zone_name = "fass.systems" },
+  { pattern = "atlas.fass.systems/*", zone_name = "fass.systems" },
+  { pattern = "www.fass.systems/*", zone_name = "fass.systems" }
+]
